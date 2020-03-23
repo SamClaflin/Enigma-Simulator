@@ -10,14 +10,16 @@ None; the only thing required to run this simulation is the installation of a Py
 critical, but you might get some issues if you go below ~3.5).
 
 # Operation
-**Encryption**
+**Encryption**  
+
 Basic operation of the simulator is quite simple, simply run the program and enter a string into the input area.
 Upon pressing enter, an encrypted string will promptly be returned back to the user. Either write this string 
 down or copy it to your clipboard in order for future decryption. Additionally, **take note of your current 
 settings (they'll be printed at the top of the input window upon first running the script)** if you plan on
 changing them later. Changing even a single setting will result in *completely* different output.
 
-**Decryption**
+**Decryption**  
+
 If you attempt to re-enter the jumbled string back into the input box immediately after its encrypted, it 
 **won't** return the input that originally produced it. This is because after each character is typed, the
 "rotors" have all rotated to a certain degree based upon the length of the string. If you don't understand how
